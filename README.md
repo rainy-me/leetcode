@@ -1,10 +1,12 @@
 # leetcode problems
 
-42 / 1240
+43 / 1240
+
+3.0%
 
 |        |     |
 | ------ | --- |
-| easy   | 39  |
+| easy   | 40  |
 | medium | 3   |
 | hard   | 0   |
 
