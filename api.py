@@ -7,7 +7,7 @@ from credentials import headers, cookies
 def get_data():
     print('geting data...')
     return requests.get(
-        'https://leetcode.com/api/problems/algorithms/',
+        'https://leetcode.com/api/problems/all/',
         headers=headers,
         cookies=cookies
     ).json()
