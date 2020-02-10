@@ -1,5 +1,6 @@
 import os
 import requests
+import math
 from credentials import headers, cookies
 
 
@@ -45,6 +46,8 @@ def md():
             f"""# leetcode problems
 
 {solved} / {total}
+
+{round(solved / total,2) * 100}%
 
 |        |     |
 | ------ | --- |
