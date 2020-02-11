@@ -1,0 +1,14 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rainy-me/leetcode.git",
+  "author": "rainy-me <github@rainy.me>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
