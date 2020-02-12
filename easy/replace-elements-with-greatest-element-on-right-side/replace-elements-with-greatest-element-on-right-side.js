@@ -3,6 +3,13 @@
  * @return {number[]}
  */
 var replaceElements = function (arr) {
-  arr.shift()
-  return [...arr.sort((a, b) => b - a), -1]
+  let prev = -1;
+  for (let i = arr.length - 1; i >= 0; i--) {
+    let cur = arr[i];
+    arr[i] = prev;
+    prev = Math.max(prev, cur);
+  }
+  return arr;
 };
+
+module.exports = replaceElements;
