@@ -1,12 +1,12 @@
 # leetcode problems
 
-76 / 1349
+80 / 1350
 
-5.63%
+5.93%
 
 |        |     |
 | ------ | --- |
-| easy   | 71  |
+| easy   | 75  |
 | medium | 5   |
 | hard   | 0   |
 
