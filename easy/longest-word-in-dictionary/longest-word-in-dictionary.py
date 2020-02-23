@@ -36,3 +36,14 @@ class Solution:
         for w in words:
             self.add(w)
         return self.max([self.find(e) for e in self.e])[0]
+
+
+class Solution2:
+    def longestWord(self, words):
+        valid = set([""])
+
+        for word in sorted(words, key=lambda x: len(x)):
+            if word[:-1] in valid:
+                valid.add(word)
+
+        return max(sorted(valid), key=lambda x: len(x))
