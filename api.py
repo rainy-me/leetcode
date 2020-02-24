@@ -47,7 +47,7 @@ def md():
 
 {solved} / {total}
 
-{round(solved / total,4) * 100}%
+{round(solved / total * 100, 2)}%
 
 |        |     |
 | ------ | --- |
