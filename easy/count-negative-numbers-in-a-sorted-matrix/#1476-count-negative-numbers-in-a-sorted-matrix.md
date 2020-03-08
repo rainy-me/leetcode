@@ -1,1 +1,0 @@
-# #1476 Count Negative Numbers in a Sorted Matrix

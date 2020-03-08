@@ -1,1 +1,0 @@
-# #990 Verifying an Alien Dictionary

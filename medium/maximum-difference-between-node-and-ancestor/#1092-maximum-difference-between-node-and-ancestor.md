@@ -1,1 +1,0 @@
-# #1092 Maximum Difference Between Node and Ancestor

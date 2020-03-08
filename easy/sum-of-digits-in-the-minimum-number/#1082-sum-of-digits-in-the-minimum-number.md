@@ -1,1 +1,0 @@
-# #1082 Sum of Digits in the Minimum Number

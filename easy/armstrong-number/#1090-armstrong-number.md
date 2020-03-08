@@ -1,1 +1,0 @@
-# #1090 Armstrong Number

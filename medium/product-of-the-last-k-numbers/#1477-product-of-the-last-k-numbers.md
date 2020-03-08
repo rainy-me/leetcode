@@ -1,1 +1,0 @@
-# #1477 Product of the Last K Numbers

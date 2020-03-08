@@ -1,1 +1,0 @@
-# #1247 Decrease Elements To Make Array Zigzag

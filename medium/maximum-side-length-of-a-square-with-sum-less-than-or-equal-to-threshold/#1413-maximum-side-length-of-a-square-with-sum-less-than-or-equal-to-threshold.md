@@ -1,1 +1,0 @@
-# #1413 Maximum Side Length of a Square with Sum Less than or Equal to Threshold

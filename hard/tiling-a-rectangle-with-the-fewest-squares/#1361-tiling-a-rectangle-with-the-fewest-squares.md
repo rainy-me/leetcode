@@ -1,1 +1,0 @@
-# #1361 Tiling a Rectangle with the Fewest Squares

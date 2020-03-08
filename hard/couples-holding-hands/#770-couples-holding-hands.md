@@ -1,1 +1,0 @@
-# #770 Couples Holding Hands

@@ -1,1 +1,0 @@
-# #795 K-th Symbol in Grammar

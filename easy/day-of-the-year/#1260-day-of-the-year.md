@@ -1,1 +1,0 @@
-# #1260 Day of the Year

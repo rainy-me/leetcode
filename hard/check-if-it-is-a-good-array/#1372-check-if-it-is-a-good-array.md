@@ -1,1 +1,0 @@
-# #1372 Check If It Is a Good Array

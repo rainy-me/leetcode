@@ -1,1 +1,0 @@
-# #1404 Print Immutable Linked List in Reverse

@@ -1,1 +1,0 @@
-# #1434 Decrypt String from Alphabet to Integer Mapping

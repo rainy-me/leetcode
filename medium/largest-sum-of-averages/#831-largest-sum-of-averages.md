@@ -1,1 +1,0 @@
-# #831 Largest Sum of Averages

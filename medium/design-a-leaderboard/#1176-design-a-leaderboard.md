@@ -1,1 +1,0 @@
-# #1176 Design A Leaderboard

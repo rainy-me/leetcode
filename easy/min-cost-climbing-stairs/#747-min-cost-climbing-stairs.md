@@ -1,1 +1,0 @@
-# #747 Min Cost Climbing Stairs

@@ -1,1 +1,0 @@
-# #1289 Day of the Week

@@ -1,1 +1,0 @@
-# #1495 Number of Trusted Contacts of a Customer

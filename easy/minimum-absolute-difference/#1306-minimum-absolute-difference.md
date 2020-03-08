@@ -1,1 +1,0 @@
-# #1306 Minimum Absolute Difference

@@ -1,1 +1,0 @@
-# #1504 Get the Second Most Recent Activity

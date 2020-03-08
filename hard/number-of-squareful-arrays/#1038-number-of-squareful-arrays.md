@@ -1,1 +1,0 @@
-# #1038 Number of Squareful Arrays

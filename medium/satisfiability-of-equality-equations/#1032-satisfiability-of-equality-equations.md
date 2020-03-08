@@ -1,1 +1,0 @@
-# #1032 Satisfiability of Equality Equations

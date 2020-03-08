@@ -1,1 +1,0 @@
-# #1299 K-Concatenation Maximum Sum

@@ -1,1 +1,0 @@
-# #1243 Sum of Nodes with Even-Valued Grandparent

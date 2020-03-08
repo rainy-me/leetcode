@@ -1,1 +1,0 @@
-# #1143 Find Smallest Common Element in All Rows

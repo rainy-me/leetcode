@@ -1,1 +1,0 @@
-# #782 Jewels and Stones

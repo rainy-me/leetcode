@@ -1,1 +1,0 @@
-# #966 Binary Subarrays With Sum

@@ -1,1 +1,0 @@
-# #1377 Number of Comments per Post

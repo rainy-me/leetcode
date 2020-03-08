@@ -1,1 +1,0 @@
-# #1270 Dinner Plate Stacks

@@ -1,1 +1,0 @@
-# #1390 Average Selling Price

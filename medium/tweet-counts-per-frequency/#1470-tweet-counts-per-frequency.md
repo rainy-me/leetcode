@@ -1,1 +1,0 @@
-# #1470 Tweet Counts Per Frequency

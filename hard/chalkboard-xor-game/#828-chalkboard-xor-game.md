@@ -1,1 +1,0 @@
-# #828 Chalkboard XOR Game
