@@ -1,0 +1,1 @@
+# #1128 Remove All Adjacent Duplicates In String

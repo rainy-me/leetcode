@@ -1,0 +1,1 @@
+# #1342 Queens That Can Attack the King
