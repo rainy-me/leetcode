@@ -1,1 +1,0 @@
-# #929 Groups of Special-Equivalent Strings

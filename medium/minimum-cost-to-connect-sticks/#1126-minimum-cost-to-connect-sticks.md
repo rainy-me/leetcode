@@ -1,1 +1,0 @@
-# #1126 Minimum Cost to Connect Sticks

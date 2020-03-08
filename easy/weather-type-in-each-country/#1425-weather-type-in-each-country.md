@@ -1,1 +1,0 @@
-# #1425 Weather Type in Each Country

@@ -1,1 +1,0 @@
-# #1455 Filter Restaurants by Vegan-Friendly, Price and Distance

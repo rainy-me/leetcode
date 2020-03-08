@@ -1,1 +1,0 @@
-# #1494 Activity Participants

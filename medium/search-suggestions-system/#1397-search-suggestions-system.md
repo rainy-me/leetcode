@@ -1,1 +1,0 @@
-# #1397 Search Suggestions System

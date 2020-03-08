@@ -1,1 +1,0 @@
-# #1030 Smallest String Starting From Leaf

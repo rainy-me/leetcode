@@ -1,1 +1,0 @@
-# #1338 Queries Quality and Percentage

@@ -1,1 +1,0 @@
-# #1075 Index Pairs of a String

@@ -1,1 +1,0 @@
-# #823 Split Array With Same Average

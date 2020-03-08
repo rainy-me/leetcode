@@ -1,1 +1,0 @@
-# #1279 Prime Arrangements

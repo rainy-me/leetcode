@@ -1,1 +1,0 @@
-# #1085 The Earliest Moment When Everyone Become Friends

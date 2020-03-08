@@ -1,1 +1,0 @@
-# #1236 N-th Tribonacci Number

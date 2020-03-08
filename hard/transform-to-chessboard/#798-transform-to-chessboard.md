@@ -1,1 +1,0 @@
-# #798 Transform to Chessboard

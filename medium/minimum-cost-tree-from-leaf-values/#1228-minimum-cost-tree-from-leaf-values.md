@@ -1,1 +1,0 @@
-# #1228 Minimum Cost Tree From Leaf Values

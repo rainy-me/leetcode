@@ -1,1 +1,0 @@
-# #1339 Team Scores in Football Tournament

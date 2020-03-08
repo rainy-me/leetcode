@@ -1,1 +1,0 @@
-# #1049 Minimum Domino Rotations For Equal Row

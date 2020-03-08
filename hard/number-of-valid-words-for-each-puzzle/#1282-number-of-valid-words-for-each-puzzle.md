@@ -1,1 +1,0 @@
-# #1282 Number of Valid Words for Each Puzzle

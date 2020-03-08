@@ -1,1 +1,0 @@
-# #1058 Lexicographically Smallest Equivalent String

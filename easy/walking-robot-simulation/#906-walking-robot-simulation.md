@@ -1,1 +1,0 @@
-# #906 Walking Robot Simulation

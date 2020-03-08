@@ -1,1 +1,0 @@
-# #900 Reordered Power of 2

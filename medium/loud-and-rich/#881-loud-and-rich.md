@@ -1,1 +1,0 @@
-# #881 Loud and Rich

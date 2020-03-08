@@ -1,1 +1,0 @@
-# #1464 Reduce Array Size to The Half

@@ -1,1 +1,0 @@
-# #971 Shortest Bridge

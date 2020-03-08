@@ -1,1 +1,0 @@
-# #1183 Statistics from a Large Sample

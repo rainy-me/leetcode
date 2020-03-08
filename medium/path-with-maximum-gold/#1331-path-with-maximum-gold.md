@@ -1,1 +1,0 @@
-# #1331 Path with Maximum Gold
