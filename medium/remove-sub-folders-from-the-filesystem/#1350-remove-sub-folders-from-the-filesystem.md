@@ -1,0 +1,1 @@
+# #1350 Remove Sub-Folders from the Filesystem

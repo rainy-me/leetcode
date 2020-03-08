@@ -1,0 +1,1 @@
+# #870 Magic Squares In Grid

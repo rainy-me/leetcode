@@ -1,0 +1,1 @@
+# #942 Super Palindromes

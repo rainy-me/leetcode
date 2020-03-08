@@ -1,0 +1,1 @@
+# #1220 Smallest Sufficient Team

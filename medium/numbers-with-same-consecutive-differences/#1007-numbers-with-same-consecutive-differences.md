@@ -1,0 +1,1 @@
+# #1007 Numbers With Same Consecutive Differences

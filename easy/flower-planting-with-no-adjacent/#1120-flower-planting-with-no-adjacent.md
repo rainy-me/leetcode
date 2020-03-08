@@ -1,0 +1,1 @@
+# #1120 Flower Planting With No Adjacent

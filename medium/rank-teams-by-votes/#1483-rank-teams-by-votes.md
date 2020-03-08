@@ -1,0 +1,1 @@
+# #1483 Rank Teams by Votes
