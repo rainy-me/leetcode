@@ -11,10 +11,10 @@ impl Solution {
     {
       for (j, c) in w.chars().enumerate() {
         if j >= ans.len() {
-          ans.push(format!("{:1$}", c, i));
+          ans.push(format!("{:>1$}", c, i + 1));
         } else {
           let l = i - ans[j].len();
-          ans[j].push_str(&format!("{:1$}", c, l));
+          ans[j].push_str(&format!("{:>1$}", c, l + 1));
         }
       }
     }
@@ -25,5 +25,9 @@ impl Solution {
 fn main() {
   let ans = Solution::print_vertically(String::from("CONTEST IS COMING"));
   print!("{:?}", ans);
-  assert_eq!(ans, vec!["CIC", "OSO", "NM", "TI", "EN", "SG", "T"])
+  assert_eq!(ans, vec!["CIC", "OSO", "N M", "T I", "E N", "S G", "T"]);
+
+  let ans2 = Solution::print_vertically(String::from("TO BE OR NOT TO BE"));
+  print!("{:?}", ans2);
+  assert_eq!(ans2, vec!["TBONTB", "OEROOE", "   T"])
 }
