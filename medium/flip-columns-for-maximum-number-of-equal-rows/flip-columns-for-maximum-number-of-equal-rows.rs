@@ -5,7 +5,7 @@ impl Solution {
     let mut map = HashMap::new();
     for row in matrix.iter() {
       let head = row[0];
-      let pattern: Vec<i32> = row.iter().map(|cell| cell ^ head).collect();
+      let pattern = row.iter().map(|cell| cell ^ head).collect::<Vec<i32>>();
       *map.entry(pattern).or_insert(0) += 1;
     }
     *map.values().max().unwrap_or(&0)
