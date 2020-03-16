@@ -18,18 +18,7 @@ impl Solution {
       let mut x_y = king.clone();
       loop {
         match (x_y[0], x_y[1]) {
-          (-1, _) => {
-            break;
-          }
-          (8, _) => {
-            break;
-          }
-          (_, -1) => {
-            break;
-          }
-          (_, 8) => {
-            break;
-          }
+          (-1, _) | (8, _) | (_, -1) | (_, 8) => break,
           _ => {
             x_y[0] += dx;
             x_y[1] += dy;
