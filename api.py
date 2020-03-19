@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os
 import requests
 import math
@@ -42,7 +43,7 @@ def get_data():
 
 
 def gen():
-    response = get_data()
+    response = get_api_data()
 
     for level in levels:
         os.makedirs(level, exist_ok=True)
