@@ -16,7 +16,6 @@ impl Solution {
     t[i]
   }
 }
-
 struct Solution {}
 
 fn main() {
