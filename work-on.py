@@ -2,10 +2,12 @@
 
 import os
 import api
+import sys
 
 
 def get_q():
-    qid = int(input("🧚‍♀️#question_id to work on? "))
+    qid = len(sys.argv) > 1 and int(sys.argv[1]) or int(
+        input("🧚‍♀️#question_id to work on? "))
     for q in api.get_data()['stat_status_pairs']:
         stat = q['stat']
         name = stat['question__title_slug']
@@ -19,7 +21,7 @@ def get_q():
 
 def run():
     q = get_q()
-    ext = input("🌎  language to use? ")
+    ext = len(sys.argv) > 2 and sys.argv[2] or input("🌎  language to use? ")
     file_path = api.create(q, ext)
     os.system(f"code {file_path}")
     print("✨ done")
