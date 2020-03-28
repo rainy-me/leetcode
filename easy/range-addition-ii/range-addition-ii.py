@@ -11,14 +11,14 @@ class Solution:
         return _max_count
 
 
-class Solution:
+class Solution2:
     def maxCount(self, m: int, n: int, ops: List[List[int]]) -> int:
         if not ops or not ops[0]:
             return m * n
         return min(list(zip(*ops))[0]) * min(list(zip(*ops))[1])
 
 
-class Solution2:
+class Solution3:
     def maxCount(self, m: int, n: int, ops: List[List[int]]) -> int:
         """
         timeout...
