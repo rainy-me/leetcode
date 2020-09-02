@@ -11,8 +11,7 @@ local_data_path = 'test_api.json'
 
 def temples(ext):
     if ext == 'rs':
-        return """
-struct Solution {}
+        return """struct Solution {}
 
 fn main() {
   assert_eq!(0, 0);
