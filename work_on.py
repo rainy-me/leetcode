@@ -21,7 +21,7 @@ def get_q():
 
 def run():
     q = get_q()
-    ext = len(sys.argv) > 2 and sys.argv[2] or input("🌎  language to use? ")
+    ext = len(sys.argv) > 2 and sys.argv[2]  or "rs" #or input("🌎  language to use? ")
     file_path = api.create(q, ext)
     os.system(f"code {file_path}")
     print("✨ done")
