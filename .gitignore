@@ -11,3 +11,4 @@ node_modules
 **/*.rs.bk
 Cargo.lock
 src
+credentials.py
