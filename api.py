@@ -70,6 +70,9 @@ def create(q, ext='js'):
     if not os.path.exists(md_file_path):
         with open(md_file_path, 'a') as f:
             f.write(f'# #{frontend_question_id} {question_title}')
+    os.chdir(file_dir)
+    os.system('cargo init')
+
     return file_path
 
 
