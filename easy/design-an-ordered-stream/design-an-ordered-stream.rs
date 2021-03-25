@@ -16,14 +16,13 @@ struct OrderedStream {
 impl OrderedStream {
     fn new(n: i32) -> Self {
         Self {
-            ptr: 0,
-            buffer: vec![None; n as usize],
+            ptr: 1,
+            buffer: vec![None; (n + 1) as usize],
         }
     }
 
     fn insert(&mut self, id_key: i32, value: String) -> Vec<String> {
-        let key = (id_key - 1) as usize;
-        self.buffer[key] = Some(value);
+        self.buffer[id_key as usize] = Some(value);
         let new_ptr = self.ptr
             + self.buffer[self.ptr..self.buffer.len()]
                 .iter()
