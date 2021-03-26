@@ -7,4 +7,7 @@ members = [
     "easy/check-if-two-string-arrays-are-equivalent",
     "easy/design-an-ordered-stream",
     "easy/sum-of-all-odd-length-subarrays",
+    "easy/count-of-matches-in-tournament",
+    "easy/find-the-highest-altitude",
+    "easy/number-of-rectangles-that-can-form-the-largest-square",
 ]

@@ -106,6 +106,7 @@ path = "{name}.rs"
       f.seek(0)
       f.write(data.replace(',\n]',f',\n    "{file_dir}",\n]'))
       f.truncate()
+    return file_path
 
 
 def md():
