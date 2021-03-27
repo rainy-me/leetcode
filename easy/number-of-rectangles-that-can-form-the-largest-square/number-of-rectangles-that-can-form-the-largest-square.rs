@@ -1,6 +1,4 @@
 #[cfg(test)]
-use utils::vec_of_strings;
-#[cfg(test)]
 struct Solution {}
 
 #[cfg(test)]

@@ -1,12 +1,9 @@
 #[cfg(test)]
-use std::collections::HashMap;
-
-#[cfg(test)]
 struct Solution {}
 
 #[cfg(test)]
 impl Solution {
-    pub fn count_balls_simple(low_limit: i32, high_limit: i32) -> i32 {
+    pub fn _count_balls(low_limit: i32, high_limit: i32) -> i32 {
         let mut m = vec![0; 46];
         for mut n in low_limit..=high_limit {
             let mut no = 0;

@@ -1,10 +1,5 @@
-use std::ops::Index;
-
 #[cfg(test)]
 use utils::vec_of_strings;
-
-#[cfg(test)]
-struct Solution {}
 
 #[cfg(test)]
 struct OrderedStream {
