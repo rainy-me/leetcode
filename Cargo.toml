@@ -10,4 +10,7 @@ members = [
     "easy/count-of-matches-in-tournament",
     "easy/find-the-highest-altitude",
     "easy/number-of-rectangles-that-can-form-the-largest-square",
+    "easy/matrix-diagonal-sum",
+    "easy/determine-if-string-halves-are-alike",
+    "easy/merge-strings-alternately",
 ]
