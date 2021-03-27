@@ -13,4 +13,6 @@ members = [
     "easy/matrix-diagonal-sum",
     "easy/determine-if-string-halves-are-alike",
     "easy/merge-strings-alternately",
+    "easy/maximum-number-of-balls-in-a-box",
+    "easy/sum-of-unique-elements",
 ]

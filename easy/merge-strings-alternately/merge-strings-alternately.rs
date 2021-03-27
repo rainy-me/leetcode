@@ -12,11 +12,11 @@ impl Solution {
             match (w1.next(), w2.next()) {
                 (None, None) => break,
                 (c1, c2) => {
-                    if let Some(c1) = c1 {
-                        ret.push(c1);
+                    if let Some(char) = c1 {
+                        ret.push(char);
                     }
-                    if let Some(c2) = c2 {
-                        ret.push(c2);
+                    if let Some(char) = c2 {
+                        ret.push(char);
                     }
                 }
             }
