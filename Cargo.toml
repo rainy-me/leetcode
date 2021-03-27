@@ -17,4 +17,5 @@ members = [
     "easy/sum-of-unique-elements",
     "easy/maximum-units-on-a-truck",
     "easy/number-of-students-unable-to-eat-lunch",
+    "easy/find-nearest-point-that-has-the-same-x-or-y-coordinate",
 ]

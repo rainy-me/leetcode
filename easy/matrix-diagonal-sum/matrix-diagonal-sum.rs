@@ -1,5 +1,5 @@
 #[cfg(test)]
-use utils::matrix;
+use utils::mat;
 
 #[cfg(test)]
 struct Solution {}
@@ -26,7 +26,7 @@ fn main() {}
 fn test() {
     for (i, o) in vec![
         (
-            matrix![
+            mat![
                 [1, 2, 3];
                 [4, 5, 6];
                 [7, 8, 9]
@@ -34,7 +34,7 @@ fn test() {
             25,
         ),
         (
-            matrix![
+            mat![
              [1, 1, 1, 1];
              [1, 1, 1, 1];
              [1, 1, 1, 1];
@@ -42,7 +42,7 @@ fn test() {
             ],
             8,
         ),
-        (matrix![[5]], 5),
+        (mat![[5]], 5),
     ] {
         assert_eq!(Solution::diagonal_sum(i), o);
     }

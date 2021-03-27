@@ -1,5 +1,5 @@
 #[cfg(test)]
-use utils::matrix;
+use utils::mat;
 
 #[cfg(test)]
 struct Solution {}
@@ -28,8 +28,8 @@ fn main() {}
 #[test]
 fn test() {
     for (i, o) in vec![
-        ((matrix![[1, 3], [2, 2], [3, 1]], 4), 8),
-        ((matrix![[5, 10], [2, 5], [4, 7], [3, 9]], 10), 91),
+        ((mat![[1, 3], [2, 2], [3, 1]], 4), 8),
+        ((mat![[5, 10], [2, 5], [4, 7], [3, 9]], 10), 91),
     ] {
         assert_eq!(Solution::maximum_units(i.0, i.1), o);
     }

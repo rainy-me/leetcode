@@ -1,3 +1,5 @@
+#![feature(fn_traits)]
+use utils::table_test;
 #[cfg(test)]
 struct Solution {}
 
@@ -25,12 +27,8 @@ impl Solution {
 
 fn main() {}
 
-#[test]
-fn test() {
-    for (i, o) in vec![
-        ((vec![1, 1, 0, 0], vec![0, 1, 0, 1]), 0),
-        ((vec![1, 1, 1, 0, 0, 1], vec![1, 0, 0, 0, 1, 1]), 3),
-    ] {
-        assert_eq!(Solution::count_students(i.0, i.1), o)
-    }
-}
+table_test!(
+    count_students,
+    (vec![1, 1, 0, 0], vec![0, 1, 0, 1]) => 0;
+    (vec![1, 1, 1, 0, 0, 1], vec![1, 0, 0, 0, 1, 1]) => 3;
+);
