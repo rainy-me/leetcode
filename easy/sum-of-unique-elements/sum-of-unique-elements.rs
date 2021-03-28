@@ -28,7 +28,7 @@ impl Solution {
     }
 }
 
-table_test! {
+test! {
     sum_of_unique,
     (vec![1, 2, 3, 2],) => 4;
     (vec![1, 1, 1, 1, 1, 1],) => 0;

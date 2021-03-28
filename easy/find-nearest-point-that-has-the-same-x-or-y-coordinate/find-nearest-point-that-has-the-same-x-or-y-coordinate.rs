@@ -1,7 +1,7 @@
 #![feature(fn_traits)]
 
 #[cfg(test)]
-use utils::{mat, table_test};
+use utils::{mat, test};
 
 #[cfg(test)]
 struct Solution {}
@@ -30,7 +30,7 @@ impl Solution {
 fn main() {}
 
 #[cfg(test)]
-table_test! {
+test! {
     nearest_valid_point,
     (3, 4, mat![[3,4]]) => 0;
     (3, 4, mat![[2,3]]) => -1;

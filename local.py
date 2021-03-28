@@ -17,7 +17,7 @@ impl Solution {
 
 }
 
-table_test! {
+test! {
     fn,
     (,) => 0;
 }

@@ -18,4 +18,9 @@ members = [
     "easy/maximum-units-on-a-truck",
     "easy/number-of-students-unable-to-eat-lunch",
     "easy/find-nearest-point-that-has-the-same-x-or-y-coordinate",
+    "easy/sort-array-by-increasing-frequency",
+    "easy/calculate-money-in-leetcode-bank",
+    "easy/maximum-ascending-subarray-sum",
+    "easy/reformat-phone-number",
+    "easy/mean-of-array-after-removing-some-elements",
 ]

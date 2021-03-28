@@ -1,5 +1,5 @@
 #![feature(fn_traits)]
-use utils::table_test;
+use utils::test;
 #[cfg(test)]
 struct Solution {}
 
@@ -27,7 +27,7 @@ impl Solution {
 
 fn main() {}
 
-table_test!(
+test!(
     count_students,
     (vec![1, 1, 0, 0], vec![0, 1, 0, 1]) => 0;
     (vec![1, 1, 1, 0, 0, 1], vec![1, 0, 0, 0, 1, 1]) => 3;
