@@ -1,8 +1,10 @@
-#[cfg(test)]
-use std::collections::HashMap;
+#![feature(fn_traits)]
 
 #[cfg(test)]
-struct Solution {}
+use std::collections::HashMap;
+use utils::setup;
+
+setup!();
 
 #[cfg(test)]
 impl Solution {
@@ -26,15 +28,9 @@ impl Solution {
     }
 }
 
-fn main() {}
-
-#[test]
-fn test() {
-    for (i, o) in vec![
-        (vec![1, 2, 3, 2], 4),
-        (vec![1, 1, 1, 1, 1, 1], 0),
-        (vec![1, 2, 3, 4, 5], 15),
-    ] {
-        assert_eq!(Solution::sum_of_unique(i), o);
-    }
+table_test! {
+    sum_of_unique,
+    (vec![1, 2, 3, 2],) => 4;
+    (vec![1, 1, 1, 1, 1, 1],) => 0;
+    (vec![1, 2, 3, 4, 5],) => 15;
 }

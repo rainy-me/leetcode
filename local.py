@@ -6,24 +6,21 @@ local_data_path = 'test_api.json'
 
 def temples(ext):
     if ext == 'rs':
-        return """#[cfg(test)]
-use utils::vec_of_strings;
+        return """#![feature(fn_traits)]
 
-#[cfg(test)]
-struct Solution {}
+use utils::setup;
+
+setup!();
 
 #[cfg(test)]
 impl Solution {
 
 }
 
-fn main() {}
-
-#[test]
-fn test() {
-
+table_test! {
+    fn,
+    (,) => 0;
 }
-
 """
     return ""
 
