@@ -10,5 +10,4 @@ node_modules
 /target
 **/*.rs.bk
 Cargo.lock
-src
 credentials.py
