@@ -27,4 +27,6 @@ members = [
     "easy/crawler-log-folder",
     "easy/check-if-one-string-swap-can-make-strings-equal",
     "easy/check-if-all-1s-are-at-least-length-k-places-away",
+    "easy/defuse-the-bomb",
+    "easy/check-if-array-is-sorted-and-rotated",
 ]
