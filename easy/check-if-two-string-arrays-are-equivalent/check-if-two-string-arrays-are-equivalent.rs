@@ -1,5 +1,5 @@
 #[cfg(test)]
-use utils::vec_of_strings;
+use utils::strings;
 
 #[cfg(test)]
 struct Solution {}
@@ -26,18 +26,15 @@ fn main() {}
 #[test]
 fn test() {
     assert_eq!(
-        Solution::array_strings_are_equal(vec_of_strings!["ab", "c"], vec_of_strings!["a", "bc"],),
+        Solution::array_strings_are_equal(strings!["ab", "c"], strings!["a", "bc"],),
         true
     );
     assert_eq!(
-        Solution::array_strings_are_equal(vec_of_strings!["a", "cb"], vec_of_strings!["ab", "c"],),
+        Solution::array_strings_are_equal(strings!["a", "cb"], strings!["ab", "c"],),
         false
     );
     assert_eq!(
-        Solution::array_strings_are_equal(
-            vec_of_strings!["abc", "d", "defg"],
-            vec_of_strings!["abcddefg"],
-        ),
+        Solution::array_strings_are_equal(strings!["abc", "d", "defg"], strings!["abcddefg"],),
         true
     )
 }

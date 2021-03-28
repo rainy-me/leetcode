@@ -1,5 +1,5 @@
 #[cfg(test)]
-use utils::vec_of_strings;
+use utils::strings;
 
 #[cfg(test)]
 struct Solution {}
@@ -30,9 +30,9 @@ fn test() {
     assert_eq!(
         Solution::count_matches(
             vec![
-                vec_of_strings!["phone", "blue", "pixel"],
-                vec_of_strings!["computer", "silver", "lenovo"],
-                vec_of_strings!["phone", "gold", "iphone"]
+                strings!["phone", "blue", "pixel"],
+                strings!["computer", "silver", "lenovo"],
+                strings!["phone", "gold", "iphone"]
             ],
             "color".to_string(),
             "silver".to_string()
@@ -42,9 +42,9 @@ fn test() {
     assert_eq!(
         Solution::count_matches(
             vec![
-                vec_of_strings!["phone", "blue", "pixel"],
-                vec_of_strings!["computer", "silver", "phone"],
-                vec_of_strings!["phone", "gold", "iphone"]
+                strings!["phone", "blue", "pixel"],
+                strings!["computer", "silver", "phone"],
+                strings!["phone", "gold", "iphone"]
             ],
             "type".to_string(),
             "phone".to_string()

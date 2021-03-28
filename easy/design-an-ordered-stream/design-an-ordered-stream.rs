@@ -1,5 +1,5 @@
 #[cfg(test)]
-use utils::vec_of_strings;
+use utils::strings;
 
 #[cfg(test)]
 struct OrderedStream {
@@ -44,11 +44,11 @@ fn main() {}
 fn test() {
     let mut os = OrderedStream::new(5);
     for (id_key, value, expect) in vec![
-        (3, "ccccc", vec_of_strings![]),
-        (1, "aaaaa", vec_of_strings!["aaaaa"]),
-        (2, "bbbbb", vec_of_strings!["bbbbb", "ccccc"]),
-        (5, "eeeee", vec_of_strings![]),
-        (4, "ddddd", vec_of_strings!["ddddd", "eeeee"]),
+        (3, "ccccc", strings![]),
+        (1, "aaaaa", strings!["aaaaa"]),
+        (2, "bbbbb", strings!["bbbbb", "ccccc"]),
+        (5, "eeeee", strings![]),
+        (4, "ddddd", strings!["ddddd", "eeeee"]),
     ] {
         assert_eq!(os.insert(id_key, value.to_string()), expect)
     }

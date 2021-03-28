@@ -1,0 +1,14 @@
+[package]
+name = "check-if-all-1s-are-at-least-length-k-places-away"
+version = "0.1.0"
+authors = ["rainy-me <github@rainy.me>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+utils = {path="../../utils"}
+
+[[bin]]
+name = "check-if-all-1s-are-at-least-length-k-places-away"
+path = "check-if-all-1s-are-at-least-length-k-places-away.rs"

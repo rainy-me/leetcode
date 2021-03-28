@@ -13,7 +13,7 @@ local_data_path = 'test_api.json'
 def temples(ext):
     if ext == 'rs':
         return """#[cfg(test)]
-use utils::vec_of_strings;
+use utils::strings;
 
 #[cfg(test)]
 struct Solution {}

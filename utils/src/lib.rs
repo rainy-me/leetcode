@@ -1,7 +1,7 @@
 #![feature(fn_traits)]
 
 #[macro_export]
-macro_rules! vec_of_strings {
+macro_rules! strings {
   ($($x:expr),*) => (vec![$($x.to_string()),*]);
 }
 
