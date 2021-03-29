@@ -29,4 +29,5 @@ members = [
     "easy/check-if-all-1s-are-at-least-length-k-places-away",
     "easy/defuse-the-bomb",
     "easy/check-if-array-is-sorted-and-rotated",
+    "easy/longest-nice-substring",
 ]
