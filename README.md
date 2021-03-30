@@ -1,10 +1,10 @@
 # leetcode problems
 
-372 / 1809 (20.56%)
+374 / 1809 (20.67%)
 
 | level  | done     |
 | ------ | -------- |
-| easy   | 305   |
+| easy   | 307   |
 | medium | 65 |
 | hard   | 2   |
 
