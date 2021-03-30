@@ -30,4 +30,8 @@ members = [
     "easy/defuse-the-bomb",
     "easy/check-if-array-is-sorted-and-rotated",
     "easy/longest-nice-substring",
+    "easy/special-array-with-x-elements-greater-than-or-equal-x",
+    "easy/consecutive-characters",
+    "easy/water-bottles",
+    "easy/reformat-date",
 ]
