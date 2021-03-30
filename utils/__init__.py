@@ -71,9 +71,7 @@ def update_md():
         f.write(
             f"""# leetcode problems
 
-{solved} / {total}
-
-{round(solved / total * 100, 2)}%
+{solved} / {total} ({round(solved / total * 100, 2)}%)
 
 | level  | done     |
 | ------ | -------- |
