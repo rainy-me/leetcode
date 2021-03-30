@@ -49,13 +49,19 @@ macro_rules! test {
 
 #[macro_export]
 macro_rules! setup {
-    (
-  ) => {
+    () => {
         use utils::test;
 
         #[cfg(test)]
         struct Solution {}
 
         fn main() {}
+    };
+    ($($item:item)*) => {
+      $(
+        #[cfg(test)]
+        $item
+      )*
+      utils::setup!();
     };
 }

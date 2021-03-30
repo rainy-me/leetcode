@@ -7,26 +7,22 @@ setup!();
 #[cfg(test)]
 impl Solution {
     pub fn slowest_key(release_times: Vec<i32>, keys_pressed: String) -> char {
-        let mut ret = None;
-        let mut slowest = 0;
-        for (index, c) in keys_pressed.chars().enumerate() {
-            let span = unsafe { release_times.get_unchecked(index) }
-                - if index == 0 {
-                    0
-                } else {
-                    *release_times.get(index - 1).unwrap()
-                };
-            if span == slowest {
-                if ret.is_none() || ret.unwrap() < c {
-                    ret = Some(c)
-                }
+        let mut chars = keys_pressed.chars();
+        let mut ret = chars.next().unwrap();
+        let mut slowest = release_times[0];
+        for (index, c) in chars.enumerate() {
+            let span = unsafe {
+                release_times.get_unchecked(index + 1) - release_times.get_unchecked(index)
+            };
+            if span == slowest && ret < c {
+                ret = c
             };
             if span > slowest {
-                ret = Some(c);
+                ret = c;
                 slowest = span
             }
         }
-        ret.unwrap()
+        ret
     }
 }
 

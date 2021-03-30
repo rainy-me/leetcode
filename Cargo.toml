@@ -35,4 +35,5 @@ members = [
     "easy/water-bottles",
     "easy/reformat-date",
     "/home/yue/dev/leetcode/easy/slowest-key",
+    "/home/yue/dev/leetcode/easy/check-array-formation-through-concatenation",
 ]
