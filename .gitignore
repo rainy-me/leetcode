@@ -1,6 +1,9 @@
 tmp
-test_api.json
+*.json
 __pycache__
+credentials.py
+.vscode
+
 node_modules
 
 #Added by cargo
@@ -10,4 +13,3 @@ node_modules
 /target
 **/*.rs.bk
 Cargo.lock
-credentials.py
