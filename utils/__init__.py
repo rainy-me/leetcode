@@ -75,10 +75,10 @@ def update_md():
 
 {round(solved / total * 100, 2)}%
 
-|        |     |
-| ------ | --- |
-| easy   | {easy}  |
-| medium | {medium}   |
+| level  | done     |
+| ------ | -------- |
+| easy   | {easy}   |
+| medium | {medium} |
 | hard   | {hard}   |
 
 """
