@@ -34,4 +34,5 @@ members = [
     "easy/consecutive-characters",
     "easy/water-bottles",
     "easy/reformat-date",
+    "/home/yue/dev/leetcode/easy/slowest-key",
 ]

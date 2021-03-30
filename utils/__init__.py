@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import sys
 import requests
 import math
 import json
@@ -103,7 +104,7 @@ test! {
 """
 
 
-def setup(q):
+def setup(q, ext="rs"):
     stat = q["stat"]
     difficulty = levels[q["difficulty"]["level"] - 1]
     name = stat["question__title_slug"]
