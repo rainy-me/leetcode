@@ -42,4 +42,9 @@ members = [
     "/home/yue/dev/leetcode/easy/thousand-separator",
     "/home/yue/dev/leetcode/easy/move-zeroes",
     "/home/yue/dev/leetcode/easy/maximum-score-after-splitting-a-string",
+    "/home/yue/dev/leetcode/easy/surface-area-of-3d-shapes",
+    "/home/yue/dev/leetcode/easy/largest-substring-between-two-equal-characters",
+    "/home/yue/dev/leetcode/easy/make-the-string-great",
+    "/home/yue/dev/leetcode/easy/minimum-changes-to-make-alternating-binary-string",
+    "/home/yue/dev/leetcode/easy/path-crossing",
 ]
