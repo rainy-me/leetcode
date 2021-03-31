@@ -38,4 +38,7 @@ members = [
     "/home/yue/dev/leetcode/easy/check-array-formation-through-concatenation",
     "/home/yue/dev/leetcode/easy/largest-perimeter-triangle",
     "/home/yue/dev/leetcode/easy/kth-missing-positive-number",
+    "/home/yue/dev/leetcode/easy/convert-sorted-array-to-binary-search-tree",
+    "/home/yue/dev/leetcode/easy/thousand-separator",
+    "/home/yue/dev/leetcode/easy/move-zeroes",
 ]

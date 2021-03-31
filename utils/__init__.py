@@ -88,9 +88,7 @@ def temples(ext):
     if ext == "rs":
         return """#![feature(fn_traits)]
 
-use utils::setup;
-
-setup!();
+utils::setup!();
 
 #[cfg(test)]
 impl Solution {
