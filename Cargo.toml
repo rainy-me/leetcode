@@ -41,4 +41,5 @@ members = [
     "/home/yue/dev/leetcode/easy/convert-sorted-array-to-binary-search-tree",
     "/home/yue/dev/leetcode/easy/thousand-separator",
     "/home/yue/dev/leetcode/easy/move-zeroes",
+    "/home/yue/dev/leetcode/easy/maximum-score-after-splitting-a-string",
 ]
